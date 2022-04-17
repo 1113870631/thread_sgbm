@@ -1,0 +1,3 @@
+/home/ww/opencv/test/cmake/CMakeFiles/rebuild_cache.dir
+/home/ww/opencv/test/cmake/CMakeFiles/1.dir
+/home/ww/opencv/test/cmake/CMakeFiles/edit_cache.dir

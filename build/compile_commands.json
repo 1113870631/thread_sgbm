@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ww/smart/opencv_SGM_with_bar/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4   -fopenmp -g   -std=gnu++11 -o CMakeFiles/1.dir/1.o -c /home/ww/smart/opencv_SGM_with_bar/1.cpp",
+  "file": "/home/ww/smart/opencv_SGM_with_bar/1.cpp"
+}
+]

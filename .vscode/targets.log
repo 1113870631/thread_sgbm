@@ -1,0 +1,545 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Feb 11 12:25:52 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/ww/opencv/test/SGM2
+# makefile (from 'Makefile', line 39)
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 45)
+RM = /usr/bin/cmake -E remove -f
+# environment
+VTE_VERSION = 5202
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"85dc8b33bfa057e31dfd84e9a10f67e1.zh-cn","_translationsConfigFile":"/home/ww/.config/Code/clp/85dc8b33bfa057e31dfd84e9a10f67e1.zh-cn/tcf.json","_cacheRoot":"/home/ww/.config/Code/clp/85dc8b33bfa057e31dfd84e9a10f67e1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ww/.config/Code/clp/85dc8b33bfa057e31dfd84e9a10f67e1.zh-cn/899d46d82c4c95423fb7e10e68eba52050e30ba3","_corruptedFile":"/home/ww/.config/Code/clp/85dc8b33bfa057e31dfd84e9a10f67e1.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/code
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 54)
+CMAKE_BINARY_DIR = /home/ww/opencv/test/cmake
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 2
+# environment
+USERNAME = ww
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+ROS_ETC_DIR = /opt/ros/melodic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ROS_PACKAGE_PATH = /opt/ros/melodic/share
+# environment
+ROS_PYTHON_VERSION = 2
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bec674c0-4c69-400f-8e53-be515acc1725.sock
+# environment
+VSCODE_CWD = /home/ww/opencv/test/SGM2
+# environment
+CLUTTER_IM_MODULE = xim
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /opt/ros/melodic/bin:/home/ww/.autojump/bin:/usr/share/cmake-3.22.1-linux-x86_64/bin:/home/ww/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LSCOLORS = exfxcxdxbxbxbxbxbxbxbx
+# environment
+SESSION_MANAGER = local/ww:@/tmp/.ICE-unix/2857,unix/ww:/tmp/.ICE-unix/2857
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+TEXTDOMAIN = im-config
+# environment
+ROS_ROOT = /opt/ros/melodic/share/ros
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=fa9b9d5d-428b-478c-b3c7-b87fa117a08c&iid=fa9b9d5d-428b-478c-b3c7-b87fa117a08c&sid=fa9b9d5d-428b-478c-b3c7-b87fa117a08c","uploadToServer":true}
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+CMAKE_PREFIX_PATH = /opt/ros/melodic
+# environment
+LS_COLORS = di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:
+# environment
+ROS_DISTRO = melodic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+GTK_IM_MODULE = ibus
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/ww/opencv/test/SGM2
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 2934
+# environment
+PKG_CONFIG_PATH = /opt/ros/melodic/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/ww
+# environment
+LD_LIBRARY_PATH = /opt/ros/melodic/lib
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/ww/.config/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LOGNAME = ww
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 48)
+EQUALS = =
+# environment
+ZSH = /home/ww/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 2
+# environment
+MAKELEVEL := 0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = ww
+# makefile
+.DEFAULT_GOAL := default_target
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 51)
+CMAKE_SOURCE_DIR = /home/ww/opencv/test/cmake
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/ww/opencv/test
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-42d72193-1.63.2-main.sock
+# environment
+PYTHONPATH = /opt/ros/melodic/lib/python2.7/dist-packages
+# makefile
+MAKEFLAGS = pqrRs
+# environment
+MFLAGS = -pqrRs
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/ww/.config/Code/exthost Crash Reports
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+TEXTDOMAINDIR = /usr/share/locale/
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+QT4_IM_MODULE = xim
+# makefile (from 'Makefile', line 42)
+CMAKE_COMMAND = /usr/bin/cmake
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/49b22f24_e4aa_42ff_9ffd_c30718ad0b66
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.394
+# makefile (from 'Makefile', line 21)
+SUFFIXES = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# environment
+ROSLISP_PACKAGE_DIRECTORIES = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+AUTOJUMP_ERROR_PATH = /home/ww/.local/share/autojump/errors.log
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 5893
+# variable set hash-table stats:
+# Load=129/1024=13%, Rehash=0, Collisions=21/163=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 1740880): 16 files, no impossibilities.
+
+ 
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.hpux_make_needs_suffix_list:
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+1.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 150):
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
+
+1: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 118):
+	$(MAKE) -f CMakeFiles/Makefile2 1
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+1.i: 1.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 83):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ww/opencv/test/cmake/CMakeFiles /home/ww/opencv/test/cmake/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ww/opencv/test/cmake/CMakeFiles 0
+
+1.o: 1.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: default_target cmake_force rebuild_cache rebuild_cache/fast edit_cache edit_cache/fast all clean clean/fast preinstall preinstall/fast depend 1 1/fast 1.o 1.cpp.o 1.i 1.cpp.i 1.s 1.cpp.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 105):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-15 23:23:39.345512401
+#  File has been updated.
+#  Successfully updated.
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  recipe to execute (from 'Makefile', line 176):
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 155):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... 1"
+	@echo "... edit_cache"
+	@echo "... 1.o"
+	@echo "... 1.i"
+	@echo "... 1.s"
+
+1.s: 1.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 100):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 110):
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+1.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 141):
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.i
+
+1.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 132):
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.o
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	$(MAKE) -f CMakeFiles/Makefile2 clean
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+1/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 123):
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=3/101=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 488 B / avg = 10 B
+# current buf: size = 8162 B / used = 488 B / count = 47 / avg = 10 B
+
+# strcache performance: lookups = 156 / hit rate = 69%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=3/156=2%
+# Finished Make data base on Fri Feb 11 12:25:52 2022
+
+ 

@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ww/opencv/test/SGM2'
+/usr/bin/cmake -H/home/ww/opencv/test/cmake -B/home/ww/opencv/test/cmake --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ww/opencv/test/cmake/CMakeFiles /home/ww/opencv/test/cmake/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/ww/opencv/test/SGM2'
+make -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/depend
+make[2]: Entering directory '/home/ww/opencv/test/SGM2'
+cd /home/ww/opencv/test/cmake && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ww/opencv/test/cmake /home/ww/opencv/test/cmake /home/ww/opencv/test/cmake /home/ww/opencv/test/cmake /home/ww/opencv/test/cmake/CMakeFiles/1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/ww/opencv/test/SGM2'
+make -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+make[2]: Entering directory '/home/ww/opencv/test/SGM2'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ww/opencv/test/cmake/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/1.dir/1.cpp.o"
+/usr/bin/c++   -isystem /usr/local/include/opencv4  -std=gnu++11 -o CMakeFiles/1.dir/1.cpp.o -c /home/ww/opencv/test/cmake/1.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ww/opencv/test/cmake/CMakeFiles --progress-num=2 "Linking CXX executable 1"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/1.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/ww/opencv/test/SGM2'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ww/opencv/test/cmake/CMakeFiles --progress-num=1,2 "Built target 1"
+make[1]: Leaving directory '/home/ww/opencv/test/SGM2'
+/usr/bin/cmake -E cmake_progress_start /home/ww/opencv/test/cmake/CMakeFiles 0
+make: Leaving directory '/home/ww/opencv/test/SGM2'
+ 
